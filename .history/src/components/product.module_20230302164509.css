@@ -1,0 +1,46 @@
+.containerProduct {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.cardBody {}
+
+.nombre {
+    font-size: 1.3rem;
+}
+
+.button {
+    text-transform: uppercase;
+    background-color: rgb(239, 64, 17);
+    color: rgb(255, 255, 255);
+    border: transparent solid;
+    padding: .5rem 1rem;
+
+
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.addToCart {}
+
+.description {}
+
+.appropiate {}
+
+.gender {}
+
+.material {}
+
+.benefits {}
+
+
+@media screen and (min-width:600px) {}

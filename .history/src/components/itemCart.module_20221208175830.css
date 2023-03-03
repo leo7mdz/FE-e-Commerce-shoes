@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.imgCart {
+    width: 6rem;
+    height: auto;
+}
+
+
+
+.icon {
+    font-size: 2rem;
+}

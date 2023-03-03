@@ -1,0 +1,7 @@
+.payButton {
+    background-color: rgb(91, 46, 130);
+    color: rgb(255, 255, 255);
+    padding: 1rem 7rem;
+    text-transform: uppercase;
+    border: transparent;
+}

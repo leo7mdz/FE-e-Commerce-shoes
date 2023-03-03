@@ -1,0 +1,9 @@
+.containerCart {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1120px) {
+    .containerCart {
+        width: 85%;
+    }

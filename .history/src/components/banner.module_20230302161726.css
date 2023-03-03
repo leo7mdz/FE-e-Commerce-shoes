@@ -1,0 +1,13 @@
+.banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+    ;
+}
+
+@media screen and (min-width:10800px) {
+    .banner {
+        height: 300px;
+    }
+}

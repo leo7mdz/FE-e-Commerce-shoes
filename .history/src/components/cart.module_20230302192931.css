@@ -1,0 +1,17 @@
+.containerCart {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.clear {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: .5rem 3rem;
+}
+
+@media screen and (min-width: 1120px) {
+    .containerCart {
+        width: 80%;
+    }
+}

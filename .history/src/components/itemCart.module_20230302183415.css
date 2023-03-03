@@ -1,0 +1,26 @@
+.card,
+.cardTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+    {
+    display: flex;
+    width: 90%;
+}
+
+
+
+.imgCart {
+    width: 6rem;
+    height: auto;
+}
+
+
+
+.icon {
+    font-size: 2rem;
+}

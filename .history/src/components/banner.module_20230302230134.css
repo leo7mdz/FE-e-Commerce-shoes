@@ -1,0 +1,30 @@
+.banner {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.containerParagraph {
+    background-color: red;
+}
+
+.paragraph {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@media screen and (min-width:920px) {
+    .banner {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .banner {
+        height: 400px;
+    }
+}

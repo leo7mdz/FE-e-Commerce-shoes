@@ -1,0 +1,28 @@
+.containerProduct {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {}
+
+.price {}
+
+.addToCart {}
+
+.description {}
+
+.appropiate {}
+
+.gender {}
+
+.material {}
+
+.benefits {}
+
+
+@media screen and (min-width:600px) {}
