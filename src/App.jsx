@@ -1,7 +1,7 @@
 import "./App.css";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Products from "./components/Products";
 import Header from "./components/Header";
 import Product from "./components/Product";
@@ -12,7 +12,7 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <BrowserRouter>
+        <HashRouter>
           <Header />
           <Routes>
             <Route path="/" element={<Products />} />
@@ -20,7 +20,7 @@ function App() {
             <Route path="/checkout-success" element={<CheckOutSucceess />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     </Provider>
   );
