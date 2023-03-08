@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useGetProductQuery } from "../api/productsApi";
 import { addToCart } from "../slice/cartSlice";
 import style from "./product.module.css";
@@ -19,6 +19,9 @@ const Product = () => {
     <div className={style.containerProduct}>
       {isSuccess && (
         <div className={style.card}>
+          <Link className={style.return} to="/">
+            &#8592; Volver al inicio
+          </Link>
           <div className={style.twoColumn}>
             <div className={style.cardTop}>
               <img src={data.Imagen} alt={data.Nombre} />

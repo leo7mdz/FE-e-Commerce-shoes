@@ -5,7 +5,7 @@ const PayButton = ({ cart }) => {
   const handleClick = async () => {
     try {
       const res = await fetch(
-        "http://localhost:4000/stripe/create-checkout-session",
+        "https://be-e-commerce-shoes.vercel.app/stripe/create-checkout-session",
         {
           method: "POST",
           headers: {
@@ -17,6 +17,7 @@ const PayButton = ({ cart }) => {
         }
       );
       const data = await res.json();
+
       if (data.url) {
         window.location.href = data.url;
       }

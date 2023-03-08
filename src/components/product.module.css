@@ -10,6 +10,12 @@
     margin: 0 auto;
 }
 
+.return {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
 .nombre {
     margin-top: 0;
     font-size: 1.3rem;
@@ -41,6 +47,7 @@
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .description {}
